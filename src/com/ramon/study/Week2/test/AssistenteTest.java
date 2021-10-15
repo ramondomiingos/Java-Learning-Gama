@@ -1,4 +1,4 @@
-package com.ramon.study.Week2.testes;
+package com.ramon.study.Week2.test;
 
 import com.ramon.study.Week2.Assistente;
 import org.junit.jupiter.api.Test;
