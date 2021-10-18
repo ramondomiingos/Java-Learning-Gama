@@ -6,7 +6,7 @@ public class Pessoa {
 
     public Pessoa(String nome, char sexo) {
         this.nome = nome;
-        this.sexo = sexo;
+        this.sexo = Character.toUpperCase(sexo);
     }
 
     public Pessoa(String nome,  int idade) {
