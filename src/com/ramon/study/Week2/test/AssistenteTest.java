@@ -13,4 +13,22 @@ class AssistenteTest {
         assertEquals(matricula,assis.getMatricula() );
     }
 
+    @Test
+    void verificarSexoDoAssistente(){
+        Assistente assis = new Assistente("Ramon Assistente", 'm', "Tecnoliga", 1234556 );
+        assertEquals('M',assis.getSexo() );
+    }
+
+    @Test
+    void verificaNomeDoAssistente(){
+        Assistente assis = new Assistente("Ramon Assistente", 'm', "Tecnoliga", 1234556 );
+        assertEquals("Ramon Assistente",assis.getNome() );
+
+    }
+    @Test
+    void verificaDepartamentoDoAssistente(){
+        Assistente assis = new Assistente("Ramon Assistente", 'm', "Tecnoliga", 1234556 );
+        assertEquals("Tecnoliga",assis.getDepartamento() );
+
+    }
 }

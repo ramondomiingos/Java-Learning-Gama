@@ -11,4 +11,19 @@ class AnimalTest {
         Animal animalzinho = new Animal("Tobias" );
         assertEquals("Tobias",animalzinho.getNome());
     }
+
+    @Test
+    void testSetEGetRaca() {
+        Animal animalzinho = new Animal("Tobias" );
+        animalzinho.setRaca("Beagle");
+        assertEquals("Beagle",animalzinho.getRaca());
+    }
+
+
+    @Test
+    void testAnimalCaminhando() {
+        Animal animalzinho = new Animal("Tobias" );
+        assertEquals("Caminhando!",animalzinho.caminha());
+
+    }
 }
